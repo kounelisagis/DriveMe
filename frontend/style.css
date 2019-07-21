@@ -1,0 +1,90 @@
+*{
+  font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+}
+
+#title {
+  height: 50px;
+  width: 100%;
+  background: purple;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  padding: auto;
+}
+
+#map {
+  height: calc(100% - 50px);
+  width: 80%;
+  float: left;
+}
+
+#panel {
+  height: calc(100% - 50px);
+  width: 20%;
+  float: left;
+  text-align: center;
+}
+
+#print {
+	background-color:orangered;
+	border-radius:11px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:18px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:2px 2px 0px #614240;
+  height: 47px;
+}
+#print:hover {
+	background-color:#d9342b;
+}
+#print:active {
+	position:relative;
+	top:1px;
+}
+
+.leaflet-popup-content-wrapper {
+    font-size: 15px;
+    text-transform: uppercase;
+    background: #ba2929;
+    text-align: center;
+    color: #ffffff;
+}
+
+.leaflet-routing-alt {
+  max-height: none;
+}
+#scroll {
+  height: calc(100% - 47px);
+  width: 100%;
+  overflow:scroll;
+  overflow-x:hidden;
+}
+
+#directions {
+  width: 100%;
+}
+
+.leaflet-routing-container {
+    width: 100%;
+}
+
+#remove_driver, #remove_candidate, #remove_destination {
+	background-color:black;
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	border-radius:7px;
+	font-size: 14px;
+	padding:5px 9px;
+}
