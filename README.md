@@ -1,7 +1,7 @@
 # DriveMe - *Environment First*
 
 A Junction Online: Impact Hackathon project<br>
-Preview: https://kounelisagis.com/driveme<br>
+Preview: https://kounelisagis.me/driveme<br>
 Product Hunt: https://www.producthunt.com/posts/driveme<br>
 
 Environment is under attack!<br>
